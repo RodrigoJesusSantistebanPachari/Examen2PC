@@ -1,3 +1,5 @@
+//https://open.kattis.com/problems/stack
+
 #include <bits/stdc++.h>
 
 #define EMPTY -99999
