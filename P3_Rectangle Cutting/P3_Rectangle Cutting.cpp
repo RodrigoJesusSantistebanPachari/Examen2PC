@@ -1,3 +1,5 @@
+//https://cses.fi/problemset/task/1744
+
 #include <bits/stdc++.h>
 
 #define INF 999999
@@ -11,7 +13,7 @@ int RectangleCutting(int a, int b){
 	for(int i=0; i<=a; i++){
 		for (int j=0; j<=b; j++) {
 			
-			//Diagonalización
+			//DiagonalizaciÃ³n
 			if (i == j) {
 				rectangulo[i][j] = 0;
 			}
